@@ -44,12 +44,17 @@ This is a demonstration, not a production system. It has no authentication, role
 
 ## AI tools used
 
-Edit this section to accurately list every tool you actually used. Example:
-- ChatGPT: helped interpret the brief, plan the dashboard, draft and explain code, and prepare documentation.
+I used ChatGPT to help me understand the assignment, plan the dashboard, generate and explain code, troubleshoot issues, and prepare the documentation.
 
-**Example prompt that worked:** "Build a Streamlit app that reads this synthetic CSV, applies the four flagging rules in order, sorts Urgent records first, and provides a separate privacy-protected supervisor aggregate."
+Example prompt that worked: Help me build a Streamlit app using the supplied synthetic student wellbeing dataset. Apply the four flagging rules in the correct order, display the students and their flag reasons, and create a separate supervisor dashboard that protects student privacy.
 
-**Prompt that failed:** describe one prompt that genuinely failed during your work. Do not claim a failure that did not happen. An example of an overly broad prompt would be: "Build the whole production-ready platform in one step."
+Prompt that failed: Generate a school wellbeing platform with all features.
+
+## What doesn't work
+
+- The app does not have login accounts or passwords.
+- It does not send automatic alerts to counsellors.
+- Follow-up status is stored locally, so it may not persist reliably when the app is deployed online.
 
 ## What I would build next
 
