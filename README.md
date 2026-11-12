@@ -46,7 +46,7 @@ This is a demonstration, not a production system. It has no authentication, role
 
 I used ChatGPT to help me understand the assignment, plan the dashboard, generate and explain code, troubleshoot issues, and prepare the documentation.
 
-Example prompt that worked: Help me build a Streamlit app using the supplied synthetic student wellbeing dataset. Apply the four flagging rules in the correct order, display the students and their flag reasons, and create a separate supervisor dashboard that protects student privacy.
+Example prompt that worked: Help me build a simple student wellbeing application using the sample CSV file. It should check students' survey answers, assign Urgent, High, Review or None flags, show the reasons, allow counsellors to update follow-up statuses, and show supervisors summary information without student IDs.
 
 Prompt that failed: Generate a school wellbeing platform with all features.
 
